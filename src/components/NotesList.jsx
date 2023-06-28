@@ -20,7 +20,7 @@ const NotesList = () => {
       {filteredNotes.map((note) => (
         <div
           key={note.id}
-          className={`${note.color} rounded-md flex flex-col text-sm sm:text-md overflow-scroll lg:text-lg w-[46%] sm:w-[31%] p-3 gap-x-3 gap-y-2`}
+          className={`${note.color} rounded-md flex flex-col text-sm sm:text-md overflow-auto lg:text-lg w-[46%] sm:w-[31%] p-3 gap-x-3 gap-y-2`}
         >
           <div className="font-semibold flex flex-row justify-between">
             {/* <input readOnly={true} className={`read-only:outline-none `} value={note.title} type="text" /> */}
