@@ -5,4 +5,4 @@ Use `npm i` to install all of the dependencies in the project after cloning the 
 
 Then use `npm run dev` to run the app in your localhost.
 
-### **[Live Site Link](https://google.com) 🔗**
+### **[Live Site Link](https://acaemr22.github.io/Notes-App/) 🔗**
